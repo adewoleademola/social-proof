@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.page-one{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.bg-img{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 45%;
+    width: 40%;
+    
+}
+.page-description h2{
+    font-size: 40px;
+    width: 50%;
+    color: #800080;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    margin-right: 0%;
+    position: relative;
+    top: 20px;
+    right: 17%;
+    margin-bottom: 40px;
+}
+.page-description p{
+    color: #864e86;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    width: 45%;
+    font-weight: 500;
+    font-size: 18px;
+    left: -12%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    right: 10%;
+    
+}
+.span{
+    display: flex;
+    
+}
+.flex p{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 50px;
+    top: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #800080;
+}
+.span img{
+    padding: 8px 2px 15px 2px;
+}
+.flex-one{
+    background-color: #F7F2F6;
+    width: 420px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+    right: 25%;
+}
+.flex-two{
+    background-color: #F7F2F6;
+    width: 420px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+    right: 12%;
+}
+.flex-three{
+    background-color: #F7F2F6;
+    width: 420px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    right: 3%;
+}
+.text-box img{
+    position: absolute;
+    right: 0%;
+    top: 10%;
+}
+.card{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    display: flex;
+}
+.card-top{
+    position: relative;
+    bottom: 55px;   
+    left: 20%;
+    margin-top: 20px;
+}
+.card-one img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 20px;
+    position: relative;
+    top: 22px;
+    margin-left: 20px;
+}
+.card-one p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-one{
+    background: #800080;
+    padding: 15px;
+    width: 350px;
+    height: 280px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+}
+.card-one h3{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+.card-two img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 20px;
+    position: relative;
+    top: 22px;
+    margin-left: 20px;
+}
+.card-two p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-two{
+    background: #800080;
+    padding: 15px;
+    width: 350px;
+    height: 280px;
+    border-radius: 15px;
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+}
+.card-two h3{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+.card-three img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 20px;
+    position: relative;
+    top: 22px;
+    margin-left: 20px;
+}
+.card-three p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-three{
+    background: #800080;
+    padding: 15px;
+    width: 350px;
+    height: 280px;
+    border-radius: 15px;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+.card-three h3{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
